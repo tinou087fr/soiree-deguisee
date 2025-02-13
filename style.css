@@ -1,29 +1,30 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soirée Déguisée - Inscription</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Soirée Déguisée</h1>
-        <p>Rejoignez-nous le 14 février au Tokyo (Limoges) !</p>
-        
-        <form id="inscription-form">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    text-align: center;
+    padding: 20px;
+}
 
-            <label for="prenom">Prénom :</label>
-            <input type="text" id="prenom" name="prenom" required>
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
 
-            <button type="submit">S'inscrire</button>
-        </form>
-        
-        <p id="message"></p>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
-</html>
+h1 {
+    color: #ff4d4d;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
